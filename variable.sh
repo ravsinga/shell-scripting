@@ -5,3 +5,5 @@ b=devops
 echo ${a}times
 echo $b
 
+DATE=$(date +%F)
+echo Today date is $DATE
