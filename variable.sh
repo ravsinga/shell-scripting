@@ -15,7 +15,7 @@ echo add= $ADD
 
 #Arrays
 
-c (10 20 small large)
+c=(10 20 small large)
 echo first value of array= $(c[0])
 echo all values of array= $(c[*])
 
