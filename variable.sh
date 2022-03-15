@@ -10,6 +10,6 @@ echo Today date is $DATE
 
 x=10
 y=20
-ADD= ${($x+$y)}
-echo add = $ADD
+ADD=${($x+$y)}
+echo add= $ADD
 
